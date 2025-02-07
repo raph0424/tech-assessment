@@ -1,21 +1,113 @@
-{
-  "cartId": "cart-id",
-  "shopperId": "shopper-id",
-  "date": "2021-10-06T18:35:42.000Z",
-  "totalAti": 99.80,
-  "promoCode": "voucher-42",
-  "products": [
-    {
-      "productId": "5449000054227",
-      "quantity": 20,
-      "unitPriceAti": 2.5,
-      "totalPriceAti": 50
-    },
-    {
-      "productId": "3099873045369",
-      "quantity": 2,
-      "unitPriceAti": 24.90,
-      "totalPriceAti": 49.80
-    }
-  ]
-}
+[
+  {
+    "cartId": "cart-1",
+    "shopperId": "shopper-id",
+    "date": "2021-10-06T18:35:42.000Z",
+    "totalAti": 99.80,
+    "promoCode": "voucher-42",
+    "products": [
+      {
+        "productId": "5449000054227",
+        "quantity": 20,
+        "unitPriceAti": 2.5,
+        "totalPriceAti": 50
+      },
+      {
+        "productId": "3099873045369",
+        "quantity": 2,
+        "unitPriceAti": 24.90,
+        "totalPriceAti": 49.80
+      }
+    ]
+  },
+  {
+    "cartId": "cart-2",
+    "shopperId": "shopper-id",
+    "date": "2021-10-06T18:35:42.000Z",
+    "totalAti": 99.80,
+    "promoCode": "voucher-42",
+    "products": [
+      {
+        "productId": "1111111111111",
+        "quantity": 10,
+        "unitPriceAti": 5,
+        "totalPriceAti": 50
+      },
+      {
+        "productId": "2222222222222",
+        "quantity": 2,
+        "unitPriceAti": 24.90,
+        "totalPriceAti": 49.80
+      }
+    ]
+  },
+  {
+    "cartId": "cart-3",
+    "shopperId": "shopper-id",
+    "date": "2023-05-06T18:35:42.000Z",
+    "totalAti": 99.80,
+    "promoCode": "voucher-42",
+    "products": [
+      {
+        "productId": "5449000054227",
+        "quantity": 20,
+        "unitPriceAti": 2.5,
+        "totalPriceAti": 60
+      },
+      {
+        "productId": "3099873045369",
+        "quantity": 2,
+        "unitPriceAti": 24.90,
+        "totalPriceAti": 69.80
+      }
+    ]
+  },
+  {
+    "cartId": "cart-4",
+    "shopperId": "shopper-4",
+    "date": "2021-06-10T12:00:00.000Z",
+    "totalAti": 120.50,
+    "promoCode": "voucher-99",
+    "products": [
+      {
+        "productId": "5449000054227",
+        "quantity": 30,
+        "unitPriceAti": 2.5,
+        "totalPriceAti": 75
+      },
+      {
+        "productId": "3099873045369",
+        "quantity": 3,
+        "unitPriceAti": 15.17,
+        "totalPriceAti": 45.50
+      }
+    ]
+  },
+  {
+    "cartId": "cart-5",
+    "shopperId": "shopper-id",
+    "date": "2021-12-01T08:00:00.000Z",
+    "totalAti": 200.00,
+    "promoCode": "voucher-50",
+    "products": [
+      {
+        "productId": "5449000054227",
+        "quantity": 10,
+        "unitPriceAti": 2.5,
+        "totalPriceAti": 25
+      },
+      {
+        "productId": "5449000054227",
+        "quantity": 20,
+        "unitPriceAti": 3.5,
+        "totalPriceAti": 70
+      },
+      {
+        "productId": "3099873045369",
+        "quantity": 4,
+        "unitPriceAti": 26.25,
+        "totalPriceAti": 105
+      }
+    ]
+  }
+]

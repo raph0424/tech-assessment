@@ -8,10 +8,10 @@ if (!cartFile || !criteriaFile) {
   process.exit(1);
 }
 
-let cart;
+let carts;
 let criteria;
 try {
-  cart = require(cartFile);
+  carts = require(cartFile);
 } catch (err) {
   console.error('Invalid cart file.');
   console.error('Usage: node index.js [CART_FILE] [PROFILE_FILE]');
@@ -27,5 +27,12 @@ try {
 }
 
 const eligibilityService = new EligibilityService();
-const isEligible = eligibilityService.isEligible(cart, criteria);
-console.log(`Cart Eligibility: ${isEligible}`);
+
+if (Array.isArray(carts)) {
+  carts.forEach((individualCart, index) => {
+    const isEligible = eligibilityService.isEligible(individualCart, criteria);
+    console.log(`Cart ${index + 1} Eligibility: ${isEligible}`);
+  });
+} else {
+  console.error('not a valid array of carts.');
+}
